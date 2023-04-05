@@ -12,8 +12,8 @@ public class ModelSeedConfiguration : IEntityTypeConfiguration<Model>
                 Id = 1,
                 CreatedBy = "System",
                 UpdatedBy = "System",
-                DataCreated = DateTime.Now,
-                DataUpdated = DateTime.Now,
+                DateCreated = DateTime.Now,
+                DateUpdated = DateTime.Now,
                 Name = "Astra",
             },
               new Model
@@ -21,8 +21,8 @@ public class ModelSeedConfiguration : IEntityTypeConfiguration<Model>
                   Id=2,
                   CreatedBy = "System",
                   UpdatedBy = "System",
-                  DataCreated = DateTime.Now,
-                  DataUpdated = DateTime.Now,
+                  DateCreated = DateTime.Now,
+                  DateUpdated = DateTime.Now,
                   Name = "Mokka",
               },
                 new Model
@@ -30,8 +30,8 @@ public class ModelSeedConfiguration : IEntityTypeConfiguration<Model>
                     Id =3,
                     CreatedBy = "System",
                     UpdatedBy = "System",
-                    DataCreated = DateTime.Now,
-                    DataUpdated = DateTime.Now,
+                    DateCreated = DateTime.Now,
+                    DateUpdated = DateTime.Now,
                     Name = "Coralla",
                 },
                   new Model
@@ -39,8 +39,8 @@ public class ModelSeedConfiguration : IEntityTypeConfiguration<Model>
                       Id =4,
                       CreatedBy = "System",
                       UpdatedBy = "System",
-                      DataCreated = DateTime.Now,
-                      DataUpdated = DateTime.Now,
+                      DateCreated = DateTime.Now,
+                      DateUpdated = DateTime.Now,
                       Name = "Prius",
                   }
             );

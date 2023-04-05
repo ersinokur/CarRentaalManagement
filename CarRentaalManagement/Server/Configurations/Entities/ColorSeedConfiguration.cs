@@ -12,8 +12,8 @@ public class ColorSeedConfiguration : IEntityTypeConfiguration<Colour>
              {
                  Id = 1,
                  CreatedBy = "System",
-                 DataCreated = DateTime.Now,
-                 DataUpdated = DateTime.Now,
+                 DateCreated = DateTime.Now,
+                 DateUpdated = DateTime.Now,
                  Name = "Black",
                  UpdatedBy = "System"
              },
@@ -21,8 +21,8 @@ public class ColorSeedConfiguration : IEntityTypeConfiguration<Colour>
               {
                   Id = 2,
                   CreatedBy = "System",
-                  DataCreated = DateTime.Now,
-                  DataUpdated = DateTime.Now,
+                  DateCreated = DateTime.Now,
+                  DateUpdated = DateTime.Now,
                   Name = "Blue",
                   UpdatedBy = "System"
               }

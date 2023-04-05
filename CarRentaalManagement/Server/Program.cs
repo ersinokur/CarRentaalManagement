@@ -4,6 +4,8 @@ using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.ResponseCompression;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity;
+using CarRentaalManagement.Server.IRepository;
+using CarRentaalManagement.Server.Repository;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -21,6 +23,11 @@ builder.Services.AddIdentityServer()
 
 builder.Services.AddAuthentication()
     .AddIdentityServerJwt();
+
+//eo buraya injectleri ekle.
+
+builder.Services.AddTransient<IUnitOfWork, UnitOfWork>();
+
 
 builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();

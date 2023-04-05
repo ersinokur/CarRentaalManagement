@@ -13,8 +13,8 @@ public class MakeSeedConfiguration : IEntityTypeConfiguration<Make>
                 Id = 1,
                 CreatedBy = "System",
                 UpdatedBy = "System",
-                DataCreated = DateTime.Now,
-                DataUpdated = DateTime.Now,
+                DateCreated = DateTime.Now,
+                DateUpdated = DateTime.Now,
                 Name = "Opel",
             },
 
@@ -23,8 +23,8 @@ public class MakeSeedConfiguration : IEntityTypeConfiguration<Make>
                  Id = 2,
                  CreatedBy = "System",
                  UpdatedBy = "System",
-                 DataCreated = DateTime.Now,
-                 DataUpdated = DateTime.Now,
+                 DateCreated = DateTime.Now,
+                 DateUpdated = DateTime.Now,
                  Name = "Toyata",
              }
 
